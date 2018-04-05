@@ -19,7 +19,9 @@
    
    function pressIt(){
      $('#typing').on('keydown', ()=>{
-       alert('bro')
+      if (e.which === 71) {
+        alert("You pressed 'g'!")
+       }
      })  
    }
    
