@@ -16,7 +16,9 @@ $(document).ready(function(){
    }
    
    function pressIt(){
-     
+     $('input').on('keydown', ()=>{
+       alert('bro')
+     })  
    }
    
 });
