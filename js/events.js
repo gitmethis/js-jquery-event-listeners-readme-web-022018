@@ -18,7 +18,7 @@
    
    
    function pressIt(){
-     $('input').on('keydown', ()=>{
+     $('#typing').on('keydown', ()=>{
        alert('bro')
      })  
    }
